@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -o 0-main.s 2> /tmp/32
+gcc -S $CFILE -o 100-main.s 2> /tmp/32
