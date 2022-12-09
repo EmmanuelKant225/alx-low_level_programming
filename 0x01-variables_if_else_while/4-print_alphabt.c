@@ -8,15 +8,14 @@
  */
 int main(void)
 {
-	char lowercase = 'a';
+	char lowercase;
 
-	while (lowercase <= 'z')
+	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	{
 		if (lowercase == 'q' || lowercase == 'e')
 			continue;
 		else
 			putchar(lowercase);
-		lowercase++;
 	}
 	printf("\n");
 
