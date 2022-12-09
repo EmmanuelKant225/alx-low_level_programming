@@ -8,13 +8,14 @@
  */
 int main(void)
 {
-	char alphabet = 'a';
-	
-	while (alphabet <= 'z')
+	char lowercase = 'a';
+
+	while (lowercase <= 'z')
 	{
-		putchar(alphabet);
-		alphabet++;
+		putchar(lowercase);
+		lowercase++;
 	}
-		printf("\n");
+	printf("\n");
+
 	return (0);
 }
