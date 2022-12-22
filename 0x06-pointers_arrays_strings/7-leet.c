@@ -13,7 +13,7 @@ char *leet(char *ptr)
 
 	for (i = 0; ptr[i] != '\0'; i++)
 	{
-		for (x = ; x <= 9; x++)
+		for (x = 0; x <= 9; x++)
 		{
 			if (ptr[i] == find[x])
 			{
