@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strncpy - a function that copies a string.
+ * _strncpy - Entry point
  * @dest: copy to
  * @src: copy from
- * @n: number input
- * Return: two concat strings
+ * @n: input number of char
+ * Return: Always 0 (Success)
  */
 char *_strncpy(char *dest, char *src, int n)
 {
