@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - a function that compares two strings.
- * @s1: string input
- * @s2: string input
+ * @s1: compare to
+ * @s2: compare with
  * Return: 0 if s1 is equal to s2, or -15 if s1 is less than s2, otherwise 15
  */
 int _strcmp(char *s1, char *s2)
