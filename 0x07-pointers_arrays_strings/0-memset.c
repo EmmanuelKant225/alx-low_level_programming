@@ -1,7 +1,9 @@
 #include "main.h"
 
 /*
- * _memset - a function that fills memory with a constant byte.
+ * _memset - a function that fills memory with a constant byte
+ * function fills the first n bytes of the memory area pointed
+ * to by s with the constant byte b
  * @s: pointed destination
  * @b: constant byte
  * @n: byte
