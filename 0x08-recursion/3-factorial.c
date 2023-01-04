@@ -1,9 +1,9 @@
 #include "main.h"
 
-/*
- * factorial(int n) - a function that returns the factorial of a given number.
- * @n: number input
- * Return: -1 if n is lower than 0, 1 if n is equal to 0
+/**
+ * factorial - youtube c tutorial: 5 - (5 - 1)
+ * @n: input
+ * Return: Always 0 (Success)
  */
 int factorial(int n)
 {
