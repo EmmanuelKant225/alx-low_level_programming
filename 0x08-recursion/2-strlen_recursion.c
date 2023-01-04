@@ -1,9 +1,9 @@
 #include "main.h"
 
-/*
- * _strlen_recursion - a function that returns the length of a string.
+/**
+ * _strlen_recursion - note: no _putchar in local test
  * @s: input
- * Return: number
+ * Return: Always 0 (Success)
  */
 int _strlen_recursion(char *s)
 {
