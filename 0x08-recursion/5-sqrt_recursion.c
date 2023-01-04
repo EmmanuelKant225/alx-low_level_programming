@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 	if (n == 1)
 		return (1);
 	else
-		return (real_sqrt(n, (n / 2)));
+		return (real_sqrt(n, (n + 1) / 2));
 }
 
 /*
