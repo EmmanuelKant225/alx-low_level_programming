@@ -1,10 +1,10 @@
 #include "main.h"
 
 int test_prime(int n, int i);
-/*
- * is_prime_number - a function that check prime number
- * @n: input
- * Return: 1 if n is a prime number, otherwise 0
+/**
+ * is_prime_number - executes prime_checker
+ * @n: input to check
+ * Return: Always 0 (Success)
  */
 int is_prime_number(int n)
 {
@@ -13,11 +13,11 @@ int is_prime_number(int n)
 	else
 		return (test_prime(n, n - 1));
 }
-/*
- * test_prime - a function that verify prime number
- * @n: input
- * @i: input
- * Return: 1 if n is prime
+/**
+ * test_prime - checks for prime
+ * @n: input to check
+ * @i: n / 2, then passes to i - 1, checks if greater than 0
+ * Return: prime check
  */
 int test_prime(int n, int i)
 {
