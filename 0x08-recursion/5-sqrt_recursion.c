@@ -1,11 +1,10 @@
 #include "main.h"
 
 int real_sqrt(int n, int i);
-/*
- * _sqrt_recursion - a function that returns the natural
- * square root of a number.
+/**
+ * _sqrt_recursion - no loop, 1. 2nd function - checks for perfect square
  * @n: input
- * Return: -1 if n does not have a natural square root
+ * Return: Always 0 (Success)
  */
 int _sqrt_recursion(int n)
 {
@@ -15,11 +14,11 @@ int _sqrt_recursion(int n)
 		return (real_sqrt(n, (n + 1) / 2));
 }
 
-/*
- * real_sqrt - a function that finds the square root
+/**
+ * real_sqrt - checks if perfect square
  * @n: input
- * @i: input
- * Return: number
+ * @i: counter
+ * Return: if square root
  */
 int real_sqrt(int n, int i)
 {
