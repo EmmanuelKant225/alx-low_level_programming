@@ -11,11 +11,11 @@ int is_palindrome(char *s)
 {
 	int len;
 
-	len = lengthc(s);
+	len = find_lengh(s);
 
 	if (len == 0)
 		return (1);
-	return (palindrome(s, 0, len - 1));
+	return (checker(s, 0, len - 1));
 }
 
 /**
