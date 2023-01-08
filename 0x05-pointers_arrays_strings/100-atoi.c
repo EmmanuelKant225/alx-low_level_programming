@@ -8,6 +8,7 @@
 int _atoi(char *s)
 {
 	int i = 0, res = 0, sign = 1;
+
 	if (s[0] == '-')
 	{
 		sign = -1;
@@ -20,5 +21,5 @@ int _atoi(char *s)
 		i++;
 	}
 
-	return sign * res;
+	return (sign * res);
 }
