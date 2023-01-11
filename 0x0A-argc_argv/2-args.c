@@ -1,11 +1,11 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 
-/*
- * main - Entry point
- * @argc: input
- * @argv: input
- * Return: Always 0 (Succes)
+/**
+ * main - Entry Point
+ * @argc: arguments
+ * @argv: array pointing to arguments
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
