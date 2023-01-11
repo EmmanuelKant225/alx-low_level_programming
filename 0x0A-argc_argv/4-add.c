@@ -1,10 +1,10 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
- * main - prints its name + \n
- * @argc: number of arguments typed
- * @argv: array pointing to arguements
+ * main - Entry Point
+ * @argc: arguments
+ * @argv: array pointing to arguments
  * Return: 0
  */
 int main(int argc, char *argv[])
@@ -12,9 +12,7 @@ int main(int argc, char *argv[])
 	int i, sum = 0;
 
 	if (argc < 1)
-	{
-		printf("%d\n", 0);
-	}
+		return (0);
 
 	for (i = 1; i < argc; i++)
 	{
@@ -23,8 +21,9 @@ int main(int argc, char *argv[])
 			printf("%s\n", "Error");
 			return (1);
 		}
-		sum = sum + atoi(argv[i]);
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
+
 	return (0);
 }
